@@ -29,6 +29,12 @@ class DynamicValues {
                     desc: "2019",
                     logo: "https://cdn-icons-png.flaticon.com/128/591/591576.png"
                 },
+                {
+                    title: "Location",
+                    desc: "VIP Tower ( 203 ), Kazir Dewri, Chittagong, Bangladesh",
+                    logo: "https://cdn-icons-png.flaticon.com/128/1865/1865269.png",
+                    link: "https://maps.app.goo.gl/uiBmXmQqxSJsCyTt5",
+                },
             ]
         },
     ]
