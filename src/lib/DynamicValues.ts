@@ -2,25 +2,16 @@ import { ICombinedInformation, IDirectMessageItem, IInitialInformation, ITitledL
 
 class DynamicValues {
     static initialInformation: IInitialInformation = {
-        iconText: "Fa",
-        name: "Fayaz Bin Salam",
-        occupation: "Software Engineer",
+        iconText: "[ R ]",
+        name: "Rich IT",
+        occupation: "Software Company",
     }
 
     static directMessageItems: Array<IDirectMessageItem> = [
         {
-            name: "WhatsApp",
-            link: "https://api.whatsapp.com/send?phone=8801796306262"
+            name: "Email",
+            link: "mailto:rich.it@yahoo.com"
         },
-        {
-            name: "Messenger",
-            link: "https://m.me/p32929"
-        },
-        {
-            name: "Telegram",
-            link: "https://t.me/p32929"
-        },
-
     ]
 
     static about: Array<ITitledListItem> = [
@@ -30,67 +21,16 @@ class DynamicValues {
             arr: [
                 {
                     title: "Name",
-                    desc: "Fayaz Bin Salam",
+                    desc: "Rich Information Technology",
                     logo: "https://cdn-icons-png.flaticon.com/128/1077/1077012.png"
                 },
                 {
-                    title: "Work Experience",
-                    desc: "7+ years",
-                    logo: "https://cdn-icons-png.flaticon.com/128/3281/3281289.png"
+                    title: "Established",
+                    desc: "2019",
+                    logo: "https://cdn-icons-png.flaticon.com/128/591/591576.png"
                 },
-                {
-                    title: "Languages",
-                    desc: "Bengali, English, Hindi, Urdu, Chittagonian etc",
-                    logo: "https://cdn-icons-png.flaticon.com/128/3898/3898150.png"
-                },
-                {
-                    title: "Nationality",
-                    desc: "Bangladeshi",
-                    logo: "https://cdn-icons-png.flaticon.com/128/11701/11701027.png"
-                },
-                {
-                    title: "Resume",
-                    desc: "Click the link icon to view/download",
-                    link: "https://docs.google.com/document/d/1vRgTCQ-UvzjGXK7s-TR5VpmjHZ7OmSmOs5G69znPhqA/edit?usp=sharing",
-                    logo: "https://cdn-icons-png.flaticon.com/128/909/909212.png"
-                }
             ]
         },
-        {
-            text: "Experiences",
-            arr: [
-                {
-                    title: "Aqary International Group",
-                    desc: "Golang Developer",
-                    logo: "https://github.com/p32929/portfolio-v2/assets/6418354/92b039b2-9f42-4248-9803-b27e435d2d03"
-                },
-                {
-                    title: "Horizon Group of Companies",
-                    desc: "Front End Developer",
-                    logo: "https://github.com/p32929/portfolio-v2/assets/6418354/b385229a-3084-4952-84f3-134e627cc3e7"
-                },
-                {
-                    title: "6sense Bangladesh",
-                    desc: "Full Stack Developer",
-                    logo: "https://github.com/p32929/portfolio-v2/assets/6418354/80aebbb6-456a-4bba-8f32-eb48373cf76d"
-                },
-                {
-                    title: "Rich Information Technology",
-                    desc: "Lead Software Engineer",
-                    logo: "https://github.com/p32929/portfolio-v2/assets/6418354/6b35eee6-669c-42ee-934b-d9555176490b"
-                },
-                {
-                    title: "Fiverr",
-                    desc: "Freelance Software Engineer",
-                    logo: "https://cdn.worldvectorlogo.com/logos/fiverr-1.svg"
-                },
-                {
-                    title: "Upwork",
-                    desc: "Freelance Software Engineer",
-                    logo: "https://cdn.worldvectorlogo.com/logos/upwork-roundedsquare-1.svg"
-                },
-            ]
-        }
     ]
 
     static skills: Array<ITitledListItem> = [
@@ -371,24 +311,11 @@ class DynamicValues {
             text: "Web Apps",
             arr: [
                 {
-                    title: "Duas",
-                    link: "https://p32929.github.io/duas/",
-                    logo: "https://p32929.github.io/duas/favicon.png",
-                    desc: "A collection of duas I try to regularly recite - created using flutter web",
-
-                },
-                {
                     title: "dobd.xyz",
                     link: "https://www.dobd.xyz/",
                     logo: "https://www.dobd.xyz/android-chrome-512x512.png",
                     desc: "Best online downloader for YouTube, Facebook, Instagram, Tiktok and more",
 
-                },
-                {
-                    title: 'StartPage',
-                    logo: 'https://cdn.iconscout.com/icon/premium/png-128-thumb/homepage-2580329-2151669.png',
-                    desc: 'A minimalistic custom browser startpage that can be configured to your needs. ',
-                    link: 'https://p32929.github.io/startpage/'
                 },
                 {
                     title: "s3cr3tm3",
@@ -403,12 +330,6 @@ class DynamicValues {
                     desc: 'Personal chef service delivering fresh signature meals.',
                     link: 'https://orderzesty.com/',
 
-                },
-                {
-                    title: 'DramaDB',
-                    logo: 'https://dramadb.vercel.app/apple-icon.png',
-                    desc: 'A serverless hobby project that lets you filter Asian drama by country, genre, status, year and popularity',
-                    link: 'https://dramadb.vercel.app/'
                 },
                 {
                     title: 'Sh0Sh0',
@@ -451,7 +372,6 @@ class DynamicValues {
                     logo: 'https://p32929.github.io/mathfinity/icons/Icon-192.png',
                     desc: 'Simple, infinite & fun math game for everyone',
                     link: "https://p32929.github.io/mathfinity/",
-
                 },
 
             ]
@@ -782,117 +702,13 @@ class DynamicValues {
             text: "Contact me",
             arr: [
                 {
-                    title: 'WhatsApp ( Recommended )',
-                    logo: 'https://user-images.githubusercontent.com/6418354/155842184-b064bf36-de8e-4317-8f8e-cb7755eed995.png',
-                    link: 'https://api.whatsapp.com/send?phone=8801796306262',
-                    desc: "+8801796306262"
-                },
-                {
                     title: 'Email',
                     logo: 'https://cdn3d.iconscout.com/3d/premium/thumb/email-address-4437044-3684811.png',
-                    desc: 'p32929.ceo@gmail.com',
-                    link: 'mailto:p32929.ceo@gmail.com'
-                },
-                {
-                    title: 'Telegram',
-                    logo: 'https://cdn-icons-png.flaticon.com/128/2111/2111646.png',
-                    desc: '@p32929',
-                    link: 'https://t.me/p32929'
+                    desc: 'rich.it@yahoo.com',
+                    link: 'mailto:rich.it@yahoo.com'
                 },
             ]
         },
-        {
-            text: "Others",
-            arr: [
-                {
-                    title: 'Anywhere on the internet',
-                    logo: 'https://user-images.githubusercontent.com/6418354/155840900-91ac076a-8d2b-45dc-b346-66f72d376d4b.png',
-                    desc: "@p32929"
-                },
-                {
-                    title: 'GitHub',
-                    logo: 'https://cdn-icons-png.flaticon.com/128/1051/1051275.png',
-                    link: 'https://github.com/p32929/'
-                },
-                {
-                    title: 'LinkedIn',
-                    logo: 'https://user-images.githubusercontent.com/6418354/155841027-8698cb12-7ddd-4604-a4ea-c618ddbc1cd8.png',
-                    link: 'https://www.linkedin.com/in/p32929/'
-                },
-                {
-                    title: 'Facebook',
-                    logo: 'https://user-images.githubusercontent.com/6418354/155840898-9e2327aa-a280-45e3-8266-8268242abda4.png',
-                    link: 'https://www.facebook.com/p32929'
-                },
-                {
-                    title: 'Twitter',
-                    logo: 'https://user-images.githubusercontent.com/6418354/155841031-532d5d6e-797a-4da1-8064-48d266b69ab2.png',
-                    link: 'https://twitter.com/p32929'
-                },
-                {
-                    title: 'Instagram',
-                    logo: 'https://user-images.githubusercontent.com/6418354/155841023-0b842621-56a3-42ec-81f1-3944034b09c7.png',
-                    link: 'https://www.instagram.com/p32929/'
-                },
-                {
-                    title: 'Fiverr',
-                    logo: 'https://cdn.worldvectorlogo.com/logos/fiverr-1.svg',
-                    link: 'https://www.fiverr.com/users/fayazbinsalam/'
-                },
-                {
-                    title: "Upwork",
-                    logo: "https://cdn.worldvectorlogo.com/logos/upwork-roundedsquare-1.svg",
-                    link: "https://www.upwork.com/freelancers/~017dbf657b99b0c1c1"
-                },
-                {
-                    title: "Medium",
-                    logo: "https://seeklogo.com/images/M/medium-logo-93CDCF6451-seeklogo.com.png",
-                    link: "https://medium.com/@p32929_77176"
-                },
-                {
-                    title: "xda",
-                    logo: "https://www.svgrepo.com/show/331651/xda-developers.svg",
-                    link: "https://forum.xda-developers.com/m/p32929.5346826/"
-                },
-                {
-                    title: "Product Hunt",
-                    logo: "https://seeklogo.com/images/P/product-hunt-logo-A144953C4C-seeklogo.com.png?v=637846885100000000",
-                    link: "https://www.producthunt.com/@p32929"
-                },
-                {
-                    title: "UVA Online Judge",
-                    logo: "https://github.com/p32929/portfolio-v2/assets/6418354/5e21914b-9dfd-4394-bfa3-d2e216e8ce39",
-                    link: "https://uhunt.onlinejudge.org/id/590978"
-                },
-                {
-                    title: "URI Online Judge",
-                    logo: "https://user-images.githubusercontent.com/26368939/110052090-be0a0b00-7d35-11eb-8827-993190a9568e.png",
-                    link: "https://www.beecrowd.com.br/judge/en/profile/76542"
-                },
-                {
-                    title: "Buy Me a Coffee",
-                    logo: "https://cdn.iconscout.com/icon/free/png-256/free-buymeacoffee-3628667-3029892.png",
-                    link: "https://www.buymeacoffee.com/p32929"
-                },
-                {
-                    title: 'Skype',
-                    logo: 'https://user-images.githubusercontent.com/6418354/155840899-62c1fe8e-66a6-4492-9acc-5bd504ac21ef.png',
-                    desc: 'p32929',
-                    link: 'skype:p32929?chat'
-                },
-            ]
-        },
-        {
-            text: "Thank you for visiting my portfolio",
-            arr: [
-                {
-                    title: "Click on the link button",
-                    desc: 'To create your own portfolio. It will only take around 3 minutes',
-                    logo: `https://cdn.iconscout.com/icon/premium/png-256-thumb/gift-2990371-2484427.png`,
-                    link: 'https://github.com/p32929/p32929.github.io/'
-                }
-            ]
-        }
     ]
 }
 
@@ -908,7 +724,7 @@ export const combinedInformation: ICombinedInformation = {
             items: DynamicValues.about,
         },
         {
-            name: "Skills",
+            name: "Services",
             items: DynamicValues.skills,
         },
         {

@@ -19,7 +19,9 @@ const LeftPart: React.FC<Props> = (props) => {
             {combinedInformation.initialInformation.iconText}
           </h1> */}
 
-          <PersonStanding className={`w-28 h-28 border-2 rounded-md my-8 p-2`} />
+          {/* <PersonStanding className={`w-28 h-28 border-2 rounded-md my-8 p-2`} /> */}
+
+          <img className="w-full h-28 object-contain m-4" src="https://github.com/p32929/portfolio-v2/assets/6418354/6b35eee6-669c-42ee-934b-d9555176490b"/>
 
           <h1 className="text-xl font-extrabold tracking-normal ">
             {combinedInformation.initialInformation.name}
